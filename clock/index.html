@@ -5,10 +5,13 @@
         <link href="clock.css" rel="stylesheet">
         <script src="clock.js"></script>
     </head>
-    <body>
+    <body onload="presentTime();">
         <div>
-        <header><h1>Sleep Time Calculator</h1>
-            <img src="http://sprezzint.com/wp-content/uploads/2020/06/clock.gif">
+        <header ><h1>Sleep Time Calculator</h1>  
+           <!-- <label id="current-time"></label>-->           
+           <input id="current-time" type="text" class="time">
+           
+          <!--  <img src="http://sprezzint.com/wp-content/uploads/2020/06/clock.gif"> -->
             <h4>Created to help you develop regular healthy sleep patterns</h4>
         </header>
         <main>

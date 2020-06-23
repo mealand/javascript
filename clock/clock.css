@@ -25,6 +25,15 @@ input{
     border: none;
     border-radius: 5rem;
 }
+.time{
+    color: white;
+    background-color: rgba(153,50,204,0.01);
+    font-size: xx-large;
+    font-weight: 900;
+}
+label{
+    color: white;
+}
 button{
     width: 50%;
     height: 3rem;
