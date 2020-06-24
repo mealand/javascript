@@ -6,8 +6,31 @@
         <script src="rps.js"></script>
     </head>
     <body>
-        <header></header>
-        <main></main>
+        <header>
+            <h1>ROCK PAPER SCISSORS GAME</h1>
+            <div id="intro-div">
+            <h4>You</h4>
+            <h4>VS</h4>
+            <h4>Computer</h4>
+            </div>
+        </header>
+        <main>
+            <section id="section-one">
+                <img id="choose-img" src="http://sprezzint.com/wp-content/uploads/2020/06/choose.png">
+                <input id="rounds-count" type="text" placeholder="Rounds">
+                <img src="http://sprezzint.com/wp-content/uploads/2020/06/ready.png">
+            </section>
+            <section id="section-two">
+                <input id="player-score" type="text" placeholder="Your Score">
+                <h4>Scores</h4>
+                <input id="computer-score" type="text" placeholder="Computer's Score">                               
+            </section>
+            <div id="button-div"> 
+                <button id="rock-button" onclick="introduction();">ROCK</button>
+                <button>PAPER</button>
+                <button>SCISSORS</button>
+            </div>
+        </main>
         <footer></footer>
     </body>
 </html>
