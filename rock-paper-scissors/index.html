@@ -6,12 +6,13 @@
         <script src="rps.js"></script>
     </head>
     <body>
+        <div class="background-div">
         <header>
             <h1>ROCK PAPER SCISSORS GAME</h1>
             <div id="intro-div">
-            <h4>You</h4>
-            <h4>VS</h4>
-            <h4>Computer</h4>
+            <h4 id="you" class="you">You</h4>
+            <h4 id="vs">VS</h4>
+            <h4 id="computer">Computer</h4>
             </div>
         </header>
         <main>
@@ -22,15 +23,16 @@
             </section>
             <section id="section-two">
                 <input id="player-score" type="text" placeholder="Your Score">
-                <h4>Scores</h4>
+                <h4 id="scores">Scores</h4>
                 <input id="computer-score" type="text" placeholder="Computer's Score">                               
             </section>
             <div id="button-div"> 
-                <button id="rock-button" onclick="introduction();">ROCK</button>
-                <button>PAPER</button>
-                <button>SCISSORS</button>
+                <button id="rock-button" onclick="introduction();" name="rock" value="rock">ROCK</button>
+                <button id="paper-button" onclick="" name="paper" value="paper">PAPER</button>
+                <button id="scissors-button" onclick="" name="scissors" value="scissors">SCISSORS</button>
             </div>
         </main>
         <footer></footer>
+    </div>
     </body>
 </html>
